@@ -120,7 +120,7 @@ function updatetable(name, placeId, birthplace){
 }
 
 function coOrds(birthplace){
-    var url="https://maps.googleapis.com/maps/api/geocode/json?address=" + birthplace + "&key=AIzaSyAI0_rYDWsCtuIf3vQRYDk6YxCmEI445dY";
+    var url="https://maps.googleapis.com/maps/api/geocode/json?address=" + birthplace + "&key=<API Key>";
     var request = new XMLHttpRequest();
     var response = 1;
     var location = 1;
